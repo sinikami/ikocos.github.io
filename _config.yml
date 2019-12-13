@@ -9,9 +9,15 @@ url: sinikami.github.io
 twitter_username: lovejie2002
 github_username: sinikami
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal #minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+
+bootstrap:
+  assets: true
+
+category_dir: category/
+tag_dir: tag/
