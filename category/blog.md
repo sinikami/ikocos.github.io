@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /category
+permalink: /category/blog
 ---
 <div>
   {% for post in site.categories.blog %}
