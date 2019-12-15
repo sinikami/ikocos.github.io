@@ -1,12 +1,12 @@
 ---
 layout: default
-permalink: /category/blog
+permalink: /category/ml
 ---
 
 <div class="home">
   <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
   <div>
-    {% for post in site.categories.blog %}
+    {% for post in site.categories.ml %}
 
     <ul class="post-list">
       <li>
@@ -16,7 +16,7 @@ permalink: /category/blog
           <a href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
         </h3>
         <p>
-          {% if post.description %}{{ post.description }} {% else %} {{ post.content | strip_html | strip_newlines | truncate:  site.data.env.truncate }}&hellip; {% endif
+          {% if post.description %}{{ post.description }} {% else %} {{ post.content | strip_html | strip_newlines | truncate: site.data.env.truncate }}&hellip; {% endif
           %}
           <a href="{{ post.url | relative_url }}">Read More</a>
         </p>
