@@ -1,15 +1,16 @@
-title: 시니카미
+title: L.J.'s Blog
 email: ikocos.au@gmail.com
+author: L.J.
 description: >-
-  Write an awesome description for your new site here. You can edit this line in
-  _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Every day is different. new and improved.
 baseurl: /daily
 url: sinikami.github.io
 twitter_username: lovejie2002
 github_username: sinikami
 markdown: kramdown
-theme: jekyll-theme-minimal #minima
+show_downloads: true
+google_analytics: UA-33641523-1
+theme: jekyll-theme-architect #jekyll-theme-minimal #minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -18,6 +19,5 @@ plugins:
 
 bootstrap:
   assets: true
-
-category_dir: category/
-tag_dir: tag/
+paginate:  2
+ 
