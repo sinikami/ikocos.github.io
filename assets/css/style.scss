@@ -1,11 +1,18 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import '{{ site.theme }}';
 /* @import "bootstrap"; */
-ol li {
-  float: none;
-  width: auto;
-  border: none;
-  height: auto;
+
+aside ul li a {
+  text-transform: uppercase;
+}
+#categories {
+  padding-left: 10px;
+}
+#categories h3 {
+  text-transform: uppercase;
+}
+.post-meta {
+  color: #9ddcff;
 }
