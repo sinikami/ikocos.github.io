@@ -1,28 +1,8 @@
 ---
-layout: default
+layout: home
 permalink: /category/ml
 ---
 
-<div class="home">
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-  <div>
-    {% for post in site.categories.ml %}
-
-    <div class="post-list">
-      <div>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <h3>
-          <a href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
-        </h3>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <p>
-          {% if post.description %}{{ post.description }} {% else %} {{ post.content | strip_html | strip_newlines | truncate: site.data.env.truncate }}&hellip; {% endif
-          %}
-          <a href="{{ post.url | relative_url }}">Read More</a>
-        </p>
-        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-      </div>
-    </div>
-    {% endfor %}
-  </div>
+<div class="post-list">
+  {% for post in site.categories.ml %} {% include item.html %} {% endfor %}
 </div>
