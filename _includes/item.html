@@ -10,4 +10,7 @@
     <a href="{{ post.url | relative_url }}">Read More</a>
   </p>
   {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+  {% if post.tags %}
+  <small > <a class="tag" href="#">{{ post.tags | join: "</a><a href='#' class='tag'>" }}</a></small>
+  {% endif %} 
 </div>
