@@ -81,7 +81,7 @@ create mybatis-config file in resources folder
 
 #### Add mappings
 
-create a mappings folder in classpath(resources)
+create a mappings folder in classpath(resources) and create an example.xml
 
 
 ```xml
@@ -116,7 +116,7 @@ public class UserDAO implements IUserDAO {
 	}
 
 	public UserVO getUserInfo(UserVO vo) {
-		return sqlSession.selectOne("UserDAO.getUserInfo", vo);
+		return sqlSession.selectOne("UserDAO.getUserInfo", vo);  // #namespace.#id checkout in mapping file. `example.xml `
 	}
 }
 
