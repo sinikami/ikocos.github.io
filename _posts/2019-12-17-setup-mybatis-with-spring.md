@@ -1,5 +1,5 @@
 ---
-title: Getting start Mybatis with Spring xml setting
+title: Set up Mybatis with Spring xml setting
 categories:
 - java
 - mybatis
