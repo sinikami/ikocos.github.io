@@ -58,10 +58,8 @@ export const BucketSort = (arr: any[]) => {
     bucket.push(value);
   }
   buckets.filter(x => x.length > 0).map(x => InsertionSort(x));
-
-	 return  [].concat(...buckets);
+  return  [].concat(...buckets);
 
 };
-
 
 ```
