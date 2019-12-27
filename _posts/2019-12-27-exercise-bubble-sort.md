@@ -11,7 +11,6 @@ tags:
 ```javascript
 
   // practice bubble sort
-  // get a value to compare every element
   const data = [2, 3, 4, 6, 1, 8, 9];
   // swap values
   const swap = (array: any[], from: number, to: number) => {
