@@ -35,7 +35,7 @@ If $$ y=x^n\\ $$ , $$\dfrac{dy}{dx}=n\cdot x^{n-1} $$
 
 #### Explanation
 
-If $$f(x) = e(x)^{2}  $$ 
+Assume that $$f(x) = e(x)^{2}  $$ 
 
 According to power and chain rule, $$-\alpha \frac{\partial f}{\partial w} = -\alpha.\frac{\partial f}{\partial e} .\frac{\partial e}{\partial w} 	=-\alpha.2e .\frac{\partial e}{\partial w}  \\$$
 
