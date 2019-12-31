@@ -39,7 +39,7 @@ If $$f(x) = e(x)^{2}  $$
 
 According to power and chain rule, $$-\alpha \frac{\partial f}{\partial w} = -\alpha.\frac{\partial f}{\partial e} .\frac{\partial e}{\partial w} 	=-\alpha.2e .\frac{\partial e}{\partial w}  \\$$
 
-Because, $$e(x)=w.x +b -y  = x.w +b -y $$,  $$\therefore \frac{\partial e}{\partial w} = x.1.w^{0} = x \\$$
+If I say partial derivative like derivative w, it means  everything else is a contant except w. thus, $$e(x)=w.x +b -y  = x.w +b -y $$,  $$\therefore \frac{\partial e}{\partial w} = x.1.w^{0} = x \\$$
 
 Therefore, $$ -\alpha \frac{\partial f}{\partial w} =-\alpha.2e .x  =-\alpha.2(wx+b-y) . x \\ $$
 
