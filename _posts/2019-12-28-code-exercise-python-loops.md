@@ -1,5 +1,5 @@
 ---
-title: Code Exercise - Python While Loops
+title: Coding Exercise - Python While Loops
 layout: post
 tags:
 - python
