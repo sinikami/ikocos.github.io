@@ -10,7 +10,7 @@ github_username: sinikami
 markdown: kramdown
 show_downloads: true
 google_analytics: UA-33641523-1
-theme: jekyll-theme-architect #jekyll-theme-minimal #minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
   - jekyll-paginate
