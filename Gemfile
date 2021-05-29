@@ -21,7 +21,9 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "github-pages"
   gem "jekyll-admin"
-  gem 'nokogiri'
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "nokogiri"
   gem 'kramdown'
   gem 'rack'
   gem "jekyll-bootstrap-sass"
