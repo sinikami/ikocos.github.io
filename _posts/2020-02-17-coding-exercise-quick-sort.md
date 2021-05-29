@@ -1,7 +1,8 @@
 ---
 title: Coding exercise - quick sort
 layout: post
-category: js
+categories:
+- js
 tags:
 - javascript
 - typescript
