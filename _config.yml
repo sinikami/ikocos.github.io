@@ -3,7 +3,7 @@ email: ikocos.au@gmail.com
 author: L.J.
 description: >-
   Every day is different. new and improved.
-baseurl: /
+#baseurl:/
 url: https://ikocos.trade
 twitter_username: lovejie2002
 github_username: sinikami
